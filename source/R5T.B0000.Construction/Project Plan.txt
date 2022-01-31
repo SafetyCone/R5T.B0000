@@ -1,0 +1,3 @@
+R5T.B0000.Construction - Construction project for Extension method bases related to Standard library types (string, Guid, etc.) or logical types (ISelector)..
+
+GOALS:
