@@ -1,3 +1,22 @@
 R5T.B0000 - Extension method bases related to Standard library types (string, Guid, etc.) or logical types (ISelector).
 
-GOALS:
+# Examples
+
+Examples of what extension method bases were included but might not have been, were evaluated for inclusion but were not included, might have been included, or were  included serve to help define the library.
+
+For examples of extension method bases that were evaluated and were included, just see the list of extension method bases within the project.
+
+All extension method bases in the project or in this listing have been included.
+
+
+## Might Not
+
+IConsole
+IConsoleOperator
+
+## Might 
+
+
+## No
+
+

@@ -1,0 +1,27 @@
+# MISSION: Built-in (standard library) related types, like Guid, Integer, String, Character, etc.
+
+# EVALUATIONS
+
+Examples of what extension method bases were included but might not have been, were not included, might have been, or were not included serve to help define the library.
+
+For examples of extension method bases that were included, just see the list of extension method bases within the project.
+
+All extension method bases in the project or in this listing have been evaluated.
+
+
+# Might not have been included, but are:
+
+
+
+
+# Might have been included, but were not:
+
+IConsole
+IConsoleOperator
+
+
+# Not included:
+
+IFileName
+IFilePath
+
