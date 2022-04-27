@@ -6,11 +6,11 @@ namespace R5T.B0000
     /// <summary>
     /// Empty implementation as base for extension methods.
     /// </summary>
-    public class ISelector : IISelector
+    public class Predicate : IPredicate
     {
         #region Static
         
-        public static ISelector Instance { get; } = new();
+        public static Predicate Instance { get; } = new();
 
         #endregion
     }

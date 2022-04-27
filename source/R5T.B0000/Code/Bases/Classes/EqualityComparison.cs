@@ -6,11 +6,11 @@ namespace R5T.B0000
     /// <summary>
     /// Empty implementation as base for extension methods.
     /// </summary>
-    public class IPredicate : IIPredicate
+    public class EqualityComparison : IEqualityComparison
     {
         #region Static
         
-        public static IPredicate Instance { get; } = new();
+        public static EqualityComparison Instance { get; } = new();
 
         #endregion
     }

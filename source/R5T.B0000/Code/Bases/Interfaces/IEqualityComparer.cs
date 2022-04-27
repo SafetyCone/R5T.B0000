@@ -9,7 +9,7 @@ namespace R5T.B0000
     /// Base for extensions ...
     /// </summary>
     [ExtensionMethodBaseMarker]
-    public interface IISelector
+    public interface IEqualityComparer
     {
     }
 }
