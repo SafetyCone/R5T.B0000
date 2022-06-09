@@ -2,7 +2,7 @@
 
 using R5T.B0000;
 
-using R5T.B0000.X001;
+using Instances = R5T.B0000.X001.Instances;
 
 
 namespace System
@@ -11,7 +11,7 @@ namespace System
     {
         public static string AllNonAlphanumeric(this IRegularExpressionPattern _)
         {
-            return RegularExpressionPatterns.AllNonAlphanumeric;
+            return Instances.RegularExpressionPatterns.AllNonAlphanumeric;
         }
     }
 }
