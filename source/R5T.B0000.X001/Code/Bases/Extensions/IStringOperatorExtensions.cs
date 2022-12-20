@@ -11,6 +11,7 @@ namespace System
 {
     public static partial class IStringOperatorExtensions
     {
+        [Obsolete("See R5T.F0000.IStringOperator.Append().")]
         public static string Append(this IStringOperator _,
             string @string,
             string appendix)
@@ -55,6 +56,7 @@ namespace System
         /// <summary>
         /// Returns the string, without the ending.
         /// </summary>
+        [Obsolete("See R5T.F0000.IStringOperator.ExceptEnding_Strict().")]
         public static string ExceptEnding(this IStringOperator _,
             string @string,
             string ending)
@@ -225,6 +227,7 @@ namespace System
             return output;
         }
 
+        [Obsolete("See R5T.F0000.IStringOperator.Suffix().")]
         public static string Suffix(this IStringOperator _,
             string @string,
             string suffix)
